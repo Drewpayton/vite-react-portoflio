@@ -8,5 +8,59 @@
     background-color: royalblue;
     overflow-x: hidden;
     padding: 15px;
-    display: grid;
+    display: flow-root;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* .sidenav .sideNavInfo {
+                                                                  padding: 50px;
+                                                              } */
+    
+    .sidenav .sideNavInfo * {
+        display: inline-block;
+        justify-content: center;
+        margin: auto;
+        font-size: 25px;
+        align-items: center;
+        margin: 10px;
+    }
+    
+    .sidenav p {
+        color: whitesmoke;
+    }
+    
+    .sidenav .sideNavInfo a {
+        padding: 15px;
+    }
+    
+    .invert {
+        filter: invert(100%);
+    }
+    
+    .sidenav img {
+        width: 35px;
+        margin-right: 5px;
+        margin-left: 5px;
+        display: inline;
+    }
+    
+    .sideNavInfo img {
+        margin: 0px;
+        color: white;
+        width: 25px;
+    }
+    
+    .sideNaveInfo {
+        font: bolder;
+    }
+    
+    .sidenav * {
+        margin-top: 10px;
+    }
+    
+    #sidebarPortrait {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
 }
