@@ -12,18 +12,30 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
-    /* .sidenav .sideNavInfo {
-                                                                  padding: 50px;
-                                                              } */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
     
     .sidenav .sideNavInfo * {
         display: inline-block;
         justify-content: center;
         margin: auto;
-        font-size: 25px;
+        font-size: 15px;
         align-items: center;
-        margin: 10px;
+        margin: 7px;
     }
     
     .sidenav p {

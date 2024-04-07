@@ -12,12 +12,12 @@ import programmingIcon from '../assets/web-programming.png'
 export default function Navbar() {
   return (
     <div className="sidenav">
-      <h3>Drew Payton</h3>
+      <h3 class="text-white">Drew Payton</h3>
       <img id="sidebarPortrait" src={userimg} alt="standard img of default user" />
       <p>Hello, my name is Drew Payton and I am a software engineer. Welcome to my portfolio</p>
       <div className='socials'>
-        <a href="https://www.flaticon.com/free-icons/github" title="github icons"><img src={githubimg} alt="Github Image icon" className='invert'/></a>
-        <a href="#" className='text-white'><img src={linkedinIcon} alt="" className='invert'/></a>
+        <a href="https://github.com/Drewpayton" target="_blank" title="Drew's Github"><img src={githubimg} alt="Github Image icon" className='invert'/></a>
+        <a href="https://www.linkedin.com/in/drewpayton2018/" target="_blank" className='text-white'><img src={linkedinIcon} alt="" className='invert'/></a>
       </div>
       <div className='sideNavInfo'>
         <a href="#" className='text-white'><img src={userIcon} alt="" className='invert'/>About Me</a>
